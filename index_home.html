@@ -11,7 +11,7 @@
 
         <!-- Nav Bar Start -->
          <div class="container">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary rounded mt-3">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary rounded mt-3 mb-3">
             <div class="container-fluid">
               <a class="navbar-brand" href="index_home.html`">Clear Path</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
         <!-- Section 1 Start -->
         <div class="container">
           <div class="">
-          <div class="p-3 mb-2 mt-3 bg-success text-black shadow rounded border border-dark-subtle" style="--bs-bg-opacity: .5;">
+          <div class="p-3 mb-2 bg-success text-black shadow rounded border border-dark-subtle text-white" style="background-image: url('images/1.png');">
             <h3>Welcome to Clear Path</h3>
             <p>In today’s fast-paced world, taking care of your mental well-being is more important than ever. Clear Path is here to help you nurture your mind and body with an easy-to-use app designed to support your mental health journey. Whether you’re looking to manage stress, improve your mood, or maintain a healthy lifestyle, Clear Path offers a range of powerful features to guide you every step of the way.</p>
             <button type="button" class="btn btn-primary">Learn More</button>
@@ -46,11 +46,11 @@
         <!-- Section 2 Start -->
         <div class="container d-flex flex-row grid gap-3 mt-3">
           <div class="card" style="width: 30rem;">
-            <img src="images/HEFramed.png" class="card-img-top" alt="images/layoutConcept.png">
+            <img src="images/MeditationFramed.png" class="card-img-top" alt="images/layoutConcept.png">
             <div class="card-body">
-              <h5 class="card-title">Healthy Eating</h5>
+              <h5 class="card-title">Meditation</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#meditation" class="btn btn-primary">More Meditation</a>
             </div>
           </div>
           <div class="card" style="width: 30rem;">
@@ -58,15 +58,23 @@
             <div class="card-body">
               <h5 class="card-title">Journaling</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#journaling" class="btn btn-primary">More Journaling</a>
             </div>
           </div>
           <div class="card" style="width: 30rem;">
-            <img src="images/MeditationFramed.png" class="card-img-top" alt="images/layoutConcept.png">
+            <img src="images/GraphFramed.png" class="card-img-top" alt="images/layoutConcept.png">
             <div class="card-body">
-              <h5 class="card-title">Meditation</h5>
+              <h5 class="card-title">Mood Tracking</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#moodtracking" class="btn btn-primary">More Mood Tracking</a>
+            </div>
+          </div>
+          <div class="card" style="width: 30rem;">
+            <img src="images/HEFramed.png" class="card-img-top" alt="images/layoutConcept.png">
+            <div class="card-body">
+              <h5 class="card-title">Healthy Eating</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#healthyeating" class="btn btn-primary">More Healthy Eating</a>
             </div>
           </div>
           
@@ -86,8 +94,8 @@
         </div> -->
 
         <div class="container">
-          <div class="bg-success d-flex justify-content-between ps-3 pe-3 pt-3 mt-3 rounded"style="--bs-bg-opacity: .5;">
-            <div>
+          <div id="meditation"class="bg-success d-flex justify-content-between ps-3 pe-3 pt-3 mt-3 rounded" style="background-image: url('images/dll.png');">
+            <div class="text-warning">
               <h2>Meditations</h2>
               <p>Subtext</p>
             </div>
@@ -96,9 +104,9 @@
         </div>
 
         <div class="container">
-          <div class="bg-success d-flex ps-3 pe-3 pt-3 mt-3 rounded"style="--bs-bg-opacity: .5;">
+          <div id="journaling" class="bg-success d-flex ps-3 pe-3 pt-3 mt-3 rounded" style="background-image: url('images/hoodie1.png');">
             <div><img class="" src="images/JournalPiece_NoBg.png" alt=""></div>
-            <div>
+            <div class="text-white">
               <h2>Journaling</h2>
               <p>Subtext</p>
             </div>
@@ -106,8 +114,8 @@
         </div>
 
         <div class="container">
-          <div class="bg-success d-flex justify-content-between ps-3 pe-3 pt-3 mt-3 rounded"style="--bs-bg-opacity: .5;">
-            <div>
+          <div id="moodtracking" class="bg-success d-flex justify-content-between ps-3 pe-3 pt-3 mt-3 rounded" style="background-image: url('images/garrage1.png');">
+            <div class="text-white">
               <h2>Mood Tracking</h2>
               <p>Subtext</p>
             </div>
@@ -116,9 +124,9 @@
         </div>
 
         <div class="container">
-          <div class="bg-success d-flex ps-3 pe-3 pt-3 mt-3 rounded"style="--bs-bg-opacity: .5;">
+          <div id="healthyeating" class="bg-success d-flex ps-3 pe-3 pt-3 mt-3 rounded" style="background-image: url('images/green3.png');">
             <div><img class="" src="images/JournalPiece_NoBg.png" alt=""></div>
-            <div>
+            <div class="text-white">
               <h2>Healthy Eating</h2>
               <p>Subtext</p>
             </div>
@@ -128,5 +136,22 @@
         <!-- Section 3 End -->
         
         <!-- Footer Start -->
+        <div class="">
+          <div class="text-white bg-dark pt-3 mt-3 pb-3">
+            <h2 class="text-center mb-4 mt-">Clear Path</h2>
+            <div class="d-flex justify-content-center">
+              <div class="me-5">
+                <h5 class="mb-3">Contact info</h5>
+                <p>Email: clearpath@gmail.ie</p>
+                <p>Pone number: +353 87 123 4567</p>
+              </div>
+              <div class="ms-5">
+                <h5 class="mb-3">More</h5>
+                <a class="nav-link" href="index_download.html"><p>Download Clear Path</p></a>
+                <a class="nav-link" href="index_reviews.html"><p>See Reviews</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
   </body>
 </html>
